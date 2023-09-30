@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:rgb(136, 105, 120);
+        }
+        h1{
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+            color:black;
+            padding: 40px;
+            margin-left: 30px;
+        }
+        label{
+            display: flex;
+            padding-top: 20px;
+            margin-top: 10px;
+            font-size: 20px;
+            
+            
+        }
+        button{
+            margin-top: 40px;
+            width: 180px;
+            background-color: aqua;
+            color: black;
+            margin-left: 70px;
+            height: 30px;
+            border-radius: 11px;
+            font-size: 14px;
+        }
+        .sign{
+            padding-left: 640px;
+            padding-top: 10px;
+            
+        }
+        input{
+            width: 320px;
+            height:  23px;
+            border-radius: 9px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="sign">
+        <form action="signin">
+          <h1>SIGN UP</h1>
+          <label style="padding-bottom: 20px;">First Name</label>
+          <input type="text" name="Firstname" id="Firstname"><br>
+          <label style="padding-bottom: 20px;">Last Name</label>
+          <input type="text" name="lastname" id="lastname"><br>
+          <label style="padding-bottom: 20px;">Email</label>
+          <input type="email" id="email"><br>
+          <label style="padding-bottom: 20px;">Password</label>
+          <input type="password" id="password"><br>
+          <button id="sign up"><a href="login.html">sign up</a></button>
+        </form>  
+    </div>
+</body>
+</html>
